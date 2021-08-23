@@ -3,32 +3,32 @@ import React from 'react'
 export interface ButtonProps {
   primary?: boolean
   backgroundColor?: string
-  size?: 'small' | 'medium' | 'large'
+  size?: 'sm' | 'md' | 'lg'
   label: string
   onClick?: () => void
 }
 
 export const Button: React.FC<ButtonProps> = ({
   primary = false,
-  size = 'medium',
+  size = 'md',
   backgroundColor,
   label,
   ...props
 }) => {
   const baseButton = 'font-bold'
   const sizeMode =
-    size === 'small'
+    size === 'sm'
       ? 'py-1.5 px-4 text-xs'
-      : size === 'medium'
+      : size === 'md'
       ? 'py-2 px-5 text-sm'
-      : size === 'large'
+      : size === 'lg'
       ? 'py-3 px-6 text-base'
       : ''
   return primary ? (
     <div>
       <button
         type="button"
-        className={`text-white bg-blue-450 ${baseButton} ${sizeMode}`}
+        className={`text-white bg-primary-600 ${baseButton} ${sizeMode}`}
         {...props}
       >
         {label}
