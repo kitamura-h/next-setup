@@ -16,7 +16,6 @@ const IndexPage = () => {
           </nav>
         </div>
       </header>
-
       <main className="flex-grow">
         <section className="py-12">
           <div className="container mx-auto px-6">
@@ -24,101 +23,17 @@ const IndexPage = () => {
           </div>
         </section>
       </main>
-
-      <footer className="text-gray-600 body-font border-t bg-white">
+      <footer className="bg-white text-gray-600 body-font border-t">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <span className="text-xl">Footer</span>
             </a>
             <p className="mt-2 text-sm text-gray-500">
-              セットアップされたプロジェクトです。 Webサイト・アプリ開発のベースとして使います。
-              （最終セットアップ日：2021年8月21日）
+              Next.js/Tailwind/Storybook/ESLint/Prettier/huskyでセットアップされたプロジェクト。
+              <br />
+              作成日：2021年08月24日
             </p>
-          </div>
-          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                プロジェクトの構成概要
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Next.js</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Tailwind</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">TypeScript</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Storybook</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">eslint</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">husky</a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                </li>
-              </nav>
-            </div>
           </div>
         </div>
         <div className="bg-white border-t">
